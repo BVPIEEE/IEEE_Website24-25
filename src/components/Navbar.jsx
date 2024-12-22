@@ -15,11 +15,11 @@ const Navbar = () => {
         {/* Menu items for larger screens */}
         <div className="hidden md:flex space-x-8">
           <a href="/" className="text-black hover:text-blue">Home</a>
-          <a href="#communities" className="text-black hover:text-blue">Communities</a>
-          <a href="#events" className="text-black hover:text-blue">Events</a>
-          <a href="#achievements" className="text-black hover:text-blue">Achievements</a>
-          <a href="#team" className="text-black hover:text-blue">Team</a>
-          <a href="#about" className="text-black hover:text-blue">About</a>
+          <a href="/communities" className="text-black hover:text-blue">Communities</a>
+          <a href="/events" className="text-black hover:text-blue">Events</a>
+          <a href="/achievements" className="text-black hover:text-blue">Achievements</a>
+          <a href="/team" className="text-black hover:text-blue">Team</a>
+          <a href="/about" className="text-black hover:text-blue">About</a>
         </div>
 
         {/* Mobile menu button */}
@@ -37,11 +37,11 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-primary p-4 space-y-4">
           <a href="/" className="block text-black hover:text-blue">Home</a>
-          <a href="#communities" className="block text-black hover:text-blue">Communities</a>
-          <a href="#events" className="block text-black hover:text-blue">Events</a>
-          <a href="#achievements" className="block text-black hover:text-blue">Achievements</a>
-          <a href="#team" className="block text-black hover:text-blue">Team</a>
-          <a href="#about" className="block text-black hover:text-blue">About</a>
+          <a href="/communities" className="block text-black hover:text-blue">Communities</a>
+          <a href="/events" className="block text-black hover:text-blue">Events</a>
+          <a href="/achievements" className="block text-black hover:text-blue">Achievements</a>
+          <a href="/team" className="block text-black hover:text-blue">Team</a>
+          <a href="/about" className="block text-black hover:text-blue">About</a>
         </div>
       )}
     </nav>

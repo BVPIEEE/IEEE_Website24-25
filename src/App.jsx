@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Communities from "./pages/Communities";
+import Events from "./pages/Events";
+import Achievements from "./pages/Achievements";
+import Team from "./pages/Team";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -11,11 +16,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/predictor" element={<Calculator />} />
-          <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/docs" element={<FinTrackDocumentation />} />
-          <Route path="/tracking" element={<FinancialPlanning />} />
-          <Route path="/trading" element={<NiftyETFTrading />} /> */}
+          <Route path="/communities" element={<Communities />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         {/* <Footer /> */}
       </Router>
