@@ -1,22 +1,22 @@
 const Herosection = () => {
   return (
-    <section className="px-10 font-poppins w-full pt-16 min-h-screen overflow-hidden bg-gradient-to-br from-[#000100] via-[#1a1a1a] to-[#000100]">
+    <section className="px-4 md:px-10 font-poppins w-full pt-16 min-h-screen overflow-hidden bg-gradient-to-br from-[#000100] via-[#1a1a1a] to-[#000100]">
       <div className="container py-16">
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
           <div className="space-y-6 text-white">
-            <h6 className="text-sm font-light tracking-wider text-blue">
+            <h6 className="text-sm font-light text-center md:text-left tracking-wider text-blue">
               IEEE BVCOE
             </h6>
-            <h1 className="text-4xl font-bold leading-tight md:text-6xl">
+            <h1 className="text-4xl font-bold text-center md:text-left leading-tight md:text-6xl">
               INNOVATIVE ENGINEERING HUB
             </h1>
-            <p className="max-w-md text-lg text-gray-300">
+            <p className="max-w-md text-lg text-center md:text-left text-gray-300">
               IEEE BVCOE fosters a vibrant community for engineering
               enthusiasts, empowering them through technical workshops,
               seminars, and hands-on projects. Join us to shape the future of
               technology and unlock your potential.
             </p>
-            <div className="flex gap-4">
+            <div className="flex md:flex-row md:items-left flex-col items-center gap-4">
               <a href="/about">
                 <button className="rounded hover:border hover:bg-black hover:border-blue px-6 py-2 hover:text-blue transition-colors bg-blue text-white">
                   About Us
