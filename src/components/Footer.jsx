@@ -1,7 +1,7 @@
 import { FaInstagram, FaFacebook, FaLinkedin, FaHeart } from 'react-icons/fa'
 const Footer = () => {
   return (
-    <footer className="text-white p-4 md:p-10">
+    <footer id='contact' className="font-poppins text-white p-4 md:p-10">
       <div className="bg-gradient-to-r from-darkblue via-black to-darkblue z-50 border shadow-lg shadow-black/50 rounded-full py-2 md:py-4">
         <div className="flex w-full flex-col md:flex-row justify-center items-center md:gap-2">
 
