@@ -15,9 +15,9 @@ const Heading = ({heading, quote}) => {
         data-aos-delay="300"
       />
       <p
-        className="mt-4 text-lg text-black text-center max-w-2xl mx-auto"
+        className="mt-4 text-lg text-black text-center max-w-3xl mx-auto"
         data-aos="fade-up"
-        data-aos-delay="600"
+        data-aos-delay="300"
       >
         {quote}
       </p>
