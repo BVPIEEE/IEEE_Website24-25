@@ -8,6 +8,7 @@ import Events from "./pages/Events";
 import Achievements from "./pages/Achievements";
 import Team from "./pages/Team";
 import About from "./pages/About";
+import './index.css';
 
 function App() {
   return (
