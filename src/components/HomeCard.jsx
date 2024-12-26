@@ -22,6 +22,7 @@ const cards = [
     icon: <GrRestroomWomen />,
   },
 ];
+
 const HomeCard = () => {
   return (
     <div className="font-poppins grid lg:grid-cols-3 gap-4 pt-10 px-4 md:p-10">
@@ -29,6 +30,8 @@ const HomeCard = () => {
         <div
           key={index}
           className="rounded-3xl overflow-hidden backdrop-blur-sm bg-gradient-to-b from-sky-400/90 to-sky-600/90 text-white shadow-xl group transition-shadow duration-300 hover:shadow-lg hover:shadow-slate-500"
+          data-aos="fade-up"
+          data-aos-delay={index * 100}
         >
           <div className="p-4 border-b border-white">
             <div className="flex items-center gap-3">
