@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.png';
 import { FaLightbulb, FaUsers, FaGraduationCap, FaHandshake } from 'react-icons/fa';
@@ -21,7 +20,7 @@ const About = () => {
         <div className="fixed inset-0 -z-10 flex items-center justify-center">
           <motion.div 
             className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] opacity-30"
-            animate={{ rotate: 360 }}
+            animate={{ rotateY: 360 }}
             transition={{ duration: 100, repeat: Infinity, ease: "linear" }}
           >
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#01b5e2] via-[#004d7a] to-transparent animate-pulse" />
