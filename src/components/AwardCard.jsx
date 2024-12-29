@@ -40,6 +40,7 @@ const AwardCard = ({
   return (
     <div
       className="font-poppins max-w-lg relative"
+      data-aos="fade-up"
       style={{
         perspective: 1000,
         height: "420px",
