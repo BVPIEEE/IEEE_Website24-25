@@ -51,7 +51,7 @@ const About = () => {
             <div className="bg-black backdrop-blur-sm p-8 rounded-lg shadow-lg" data-aos="fade-right">
               <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-blue">Who We Are</h2>
               <p className="text-[#e6f7fc] leading-relaxed">
-                IEEE, pronounced as I-Triple-E, is the world's largest technical society with a 125-year legacy. 
+                IEEE is the world's largest technical society with a 125-year legacy. 
                 The IEEE BVCOE Student Branch, part of Bharati Vidyapeeth's College of Engineering, is dedicated to 
                 fostering technological innovation and excellence for the benefit of humanity.
               </p>
