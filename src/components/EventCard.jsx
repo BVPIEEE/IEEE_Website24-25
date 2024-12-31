@@ -21,7 +21,7 @@ function EventDisplay({ image, title, centerColor, centerContent, isActive }) {
   }, [isActive]);
 
   return (
-    <div className={`relative w-full h-full aspect-video overflow-hidden`}>
+    <div className={`relative lg:rounded-l-lg w-full h-full aspect-video overflow-hidden`}>
       <div className="absolute inset-0">
         <img
           src={image}
@@ -62,7 +62,7 @@ function EventDisplay({ image, title, centerColor, centerContent, isActive }) {
         </div>
         <div className="w-1/6 flex items-center justify-center bg-black/30">
           <div
-            className={`transform rotate-90 origin-center text-white text-lg md:text-3xl font-bold tracking-wider text-center transition-opacity duration-100 ${
+            className={` rotate-90 origin-center text-white text-lg md:text-3xl font-bold tracking-wider text-center transition-opacity duration-100 ${
               showContent ? "opacity-100" : "opacity-0"
             }`}
             style={{
@@ -95,7 +95,7 @@ function EventCard({ events }) {
   if (!activeItem) return null;
 
   return (
-    <div className="flex flex-col lg:flex-row items-stretch lg:h-80 w-full bg-[#F5F5F5]">
+    <div className="flex flex-col lg:flex-row items-stretch lg:h-72 w-full bg-[#F5F5F5]">
       <div className="lg:w-1/2 flex-1 flex flex-col justify-center relative overflow-hidden">
         <EventDisplay
           image={activeItem.image}
@@ -110,7 +110,7 @@ function EventCard({ events }) {
         {events.map((item, index) => (
           <div
             key={index}
-            className={`flex-1 flex items-center justify-center p-4 lg:p-0 text-xs md:text-sm lg:text-base tracking-widest font-medium cursor-pointer transition-all duration-300 ${
+            className={`flex-1 transform lg:rounded-r-lg flex items-center justify-center p-4 lg:p-0 text-xs md:text-sm lg:text-base tracking-widest font-medium cursor-pointer transition-all duration-300 ${
               item.color
             } ${
               activeContent === item.label
