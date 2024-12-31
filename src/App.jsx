@@ -9,6 +9,7 @@ import Achievements from "./pages/Achievements";
 import Team from "./pages/Team";
 import About from "./pages/About";
 import './index.css';
+import Pratibimb from "./components/Pratibimb";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/team" element={<Team />} />
           <Route path="/about" element={<About />} />
+          <Route path="/pratibimb" element={<Pratibimb />} />
         </Routes>
         <Footer />
       </Router>
