@@ -33,7 +33,7 @@ function EventDisplay({ image, title, centerColor, centerContent, isActive }) {
       <div className="absolute h-full inset-0 flex">
         <div className="w-1/6 h-full flex items-center justify-center bg-black/30">
           <div
-            className={`transform -rotate-90 origin-center text-white text-lg md:text-3xl font-bold tracking-wider text-center transition-opacity duration-100 ${
+            className={`transform -rotate-90 origin-center text-white text-lg md:text-3xl font-semibold tracking-tight text-center transition-opacity duration-100 ${
               showContent ? "opacity-100" : "opacity-0"
             }`}
             style={{
@@ -62,7 +62,7 @@ function EventDisplay({ image, title, centerColor, centerContent, isActive }) {
         </div>
         <div className="w-1/6 flex items-center justify-center bg-black/30">
           <div
-            className={` rotate-90 origin-center text-white text-lg md:text-3xl font-bold tracking-wider text-center transition-opacity duration-100 ${
+            className={` rotate-90 origin-center text-white text-lg md:text-3xl font-semibold tracking-tight text-center transition-opacity duration-100 ${
               showContent ? "opacity-100" : "opacity-0"
             }`}
             style={{
