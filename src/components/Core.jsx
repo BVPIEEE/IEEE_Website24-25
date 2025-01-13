@@ -15,42 +15,49 @@ const Core = () => {
       name: "Tishya Nangia",
       role: "General Secretary",
       offset: "lg:translate-y-4",
+      linkedin: "https://www.linkedin.com/in/tishya-nangia/"
     },
     {
       image: gensec2,
       name: "Nishchay Gupta",
       role: "General Secretary",
       offset: "lg:-translate-y-4",
+      linkedin: "https://www.linkedin.com/in/nishchay-gupta-417619283/"
     },
     {
       image: jointsec1,
       name: "Dhananjay",
       role: "Joint Secretary",
       offset: "lg:translate-y-6",
+      linkedin: "https://www.linkedin.com/in/dhananjay6561/"
     },
     {
       image: jointsec2,
       name: "Divye Chandna",
       role: "Joint Secretary",
       offset: "lg:-translate-y-4",
+      linkedin: "https://www.linkedin.com/in/divyechandna/"
     },
     {
       image: treasurer1,
       name: "Oorgita Sur",
       role: "Treasurer",
       offset: "lg:translate-y-6",
+      linkedin: "https://www.linkedin.com/in/oorgita-sur-258b36253/"
     },
     {
       image: treasurer2,
       name: "Aditya Popli",
       role: "Treasurer",
       offset: "lg:-translate-y-4",
+      linkedin: "https://www.linkedin.com/in/aditya-popli-70559b28a/"
     },
     {
       image: webmaster,
       name: "Ritu Gupta",
       role: "Webmaster",
       offset: "lg:translate-y-4",
+      linkedin: "https://www.linkedin.com/in/ritu-gupta23/"
     },
   ];
 
@@ -79,7 +86,7 @@ const Core = () => {
                 <button className="text-sm  font-medium text-skyblue mb-1">{profile.role}</button>
                 
                 <a
-                  href="#"
+                  href={profile.linkedin}
                   className="absolute -bottom-1 -right-1 p-2 bg-blue rounded-l-full text-white hover:bg-skyblue transition-colors duration-300 z-10"
                   aria-label={`${profile.name}'s LinkedIn profile`}
                 >

@@ -8,14 +8,14 @@ import vicechair from "../assets/team/ViceChairManasvi.jpeg"
 
 const coordinator = {
   image: monicamam,
-  linkedinUrl: "https://linkedin.com/in/johndoe",
+  linkedinUrl: "https://www.linkedin.com/in/dr-monica-bhutani-0955a5158/",
 };
 
 const chairperson = {
   name: "Chahat Nihalani",
   role: "Chairperson",
   image: chair,
-  linkedinUrl: "https://linkedin.com/in/janesmith",
+  linkedinUrl: "https://www.linkedin.com/in/chahatnihalani",
   thought:
     "Leadership is about making others better as a result of your presence.",
 };
@@ -33,7 +33,7 @@ const viceChairperson = {
   name: "Manasavi Chauhan",
   role: "Vice Chairperson",
   image: vicechair,
-  linkedinUrl: "https://linkedin.com/in/mikejohnson",
+  linkedinUrl: "https://www.linkedin.com/in/manasvi-chauhan",
   thought: "Innovation distinguishes between a leader and a follower.",
 };
 
