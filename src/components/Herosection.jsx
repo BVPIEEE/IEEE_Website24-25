@@ -67,11 +67,11 @@ const Herosection = () => {
                   About Us
                 </button>
               </a>
-              <a href="/pratibimb" className="w-full sm:w-auto">
+              {/* <a href="/pratibimb" className="w-full sm:w-auto">
               <button className="w-full sm:w-auto rounded border border-blue px-6 py-2 text-blue transition-colors hover:bg-blue hover:text-white">
                 Pratibimb 2.0 
               </button>
-              </a>
+              </a> */}
             </div>
           </div>
 
