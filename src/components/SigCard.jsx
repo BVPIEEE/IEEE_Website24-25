@@ -31,7 +31,7 @@ const SigCard = ({
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           />
-          <div className={`absolute inset-0 bg-black opacity-60`} />
+          <div className={`absolute inset-0`} />
           <div className="absolute bottom-4 left-4 flex items-center">
             <div className="bg-white p-2 border border-4 border-skyblue rounded-full">
               <img

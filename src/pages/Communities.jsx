@@ -17,6 +17,11 @@ import LogoBQC from "../assets/Communities/bqc.png";
 import LogoGamma from "../assets/Communities/gamma.png";
 import LogoDrishti from "../assets/Communities/drishti.png";
 import SigCard from "../components/SigCard";
+import CodeX from "../assets/Communities/bgcodex.png";
+import Gamma from "../assets/Communities/bggamma.png";
+import Bqc from "../assets/Communities/bgbqc.png";
+import Ecell from "../assets/Communities/bgecell.png";
+import Drishti from "../assets/Communities/bgdrishti.png"
 
 const subchapters = [
   {
@@ -80,33 +85,33 @@ const sigs = [
   {
     name: "Code X",
     logoSrc: LogoCodeX,
-    teamPicSrc: "/images/ai-sig-team.jpg",
+    teamPicSrc: CodeX,
     description:
       "Code X, under IEEE BVCOE, supports beginners in programming by offering projects, opportunities, and expert mentorship, fostering growth and collaboration.",
   },
   {
     name: "E-Cell",
     logoSrc: LogoECell,
-    teamPicSrc: "/images/cybersecurity-sig-team.jpg",
+    teamPicSrc: Ecell,
     description:
       "E-Cell helps and promotes entrepreneurship within students of our college. It will be conducting competitions in the fields of stock markets, crypto world, entrepreneurship and more.",
   },
   {
     name: "BQC",
     logoSrc: LogoBQC,
-    teamPicSrc: "/images/iot-sig-team.jpg",
+    teamPicSrc: Bqc,
     description: "BQC’s goal is to establish a quizzing community in the college and provide a platform for anyone interested in Quizzes and Crosswords. Quizzes and Trivia are something that intrigues everyone.",
   },
   {
-    name: "Gamma",
+    name: "GAMMA",
     logoSrc: LogoGamma,
-    teamPicSrc: "/images/blockchain-sig-team.jpg",
+    teamPicSrc: Gamma,
     description: "Gaming, Multi Media and Animation yearns to make a community where the members can show off their skills, learn different styles and ways to game or make creative content.",
   },
   {
     name: "Drishti",
     logoSrc: LogoDrishti,
-    teamPicSrc: "/images/quantum-sig-team.jpg",
+    teamPicSrc: Drishti,
     description:
       "Drishti aims to build a community to provide learning opportunities to all. Digital Arts includes a lot of things like photography, video editing, animations etc.",
   },
