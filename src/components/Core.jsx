@@ -62,18 +62,18 @@ const Core = () => {
   ];
 
   return (
-    <div className="font-poppins bg-gradient-to-br from-black to-darkblue my-12 py-10">
+    <div className="font-poppins bg-gradient-to-br from-black to-darkblue mt-12 py-10">
       <h2 className="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">
         Core Team
       </h2>
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 mb-8 " data-aos="fade-up">
+      <div className="container mx-auto px-16 md:px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4 mb-8 " data-aos="fade-up">
           {profiles.map((profile, index) => (
             <div
               key={index}
               className={`group relative flex flex-col justify-center items-center bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl ${profile.offset}`}
             >
-              <div className="w-full h-36 lg:h-56 relative">
+              <div className="w-full h-56 lg:h-56 relative">
                 <img
                   src={profile.image}
                   alt={profile.name}

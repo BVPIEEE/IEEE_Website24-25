@@ -20,17 +20,8 @@ const chairperson = {
     "Leadership is about making others better as a result of your presence.",
 };
 
-// const chairperson2 = {
-//   name: "Rishit Singh",
-//   role: "Chairperson",
-//   image: "/placeholder.svg?height=128&width=128",
-//   linkedinUrl: "https://linkedin.com/in/janesmith",
-//   thought:
-//     "Leadership is about making others better as a result of your presence.",
-// };
-
 const viceChairperson = {
-  name: "Manasavi Chauhan",
+  name: "Manasvi Chauhan",
   role: "Vice Chairperson",
   image: vicechair,
   linkedinUrl: "https://www.linkedin.com/in/manasvi-chauhan",
@@ -40,32 +31,34 @@ const viceChairperson = {
 function Team({ name, role, image, linkedinUrl }) {
   return (
     <div
-      className="relative w-full md:w-auto flex flex-row md:flex-col justify-center items-center group"
+      className="relative w-48 h-56 group"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div className="relative border border-2 p-1 border-blue rounded-full w-36 h-36 transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:border-skyblue">
-        <img
-          src={image}
-          alt={name}
-          className="w-full h-full object-cover rounded-full transition-transform duration-300 ease-in-out group-hover:scale-105"
-        />
-        <a
-          href={linkedinUrl}
-          className="absolute bottom-2 right-0 p-1 bg-blue rounded-full text-white transition-all duration-300 ease-in-out hover:bg-skyblue hover:scale-110"
-          aria-label={`${name}'s LinkedIn profile`}
-        >
-          <FaLinkedinIn />
-        </a>
+      <div className="absolute inset-0 bg-black/50 transform rotate-45 rounded-3xl overflow-hidden shadow-lg transition-all duration-300 ease-in-out group-hover:shadow-2xl">
+        <div className="absolute inset-0 transform -rotate-45 overflow-hidden">
+          <img
+            src={image}
+            alt={name}
+            className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-90 group-hover:opacity-90 transition-opacity duration-300 ease-in-out"></div>
+        </div>
       </div>
-      
-      <div className="px-2">
-        <h3 className="text-base md:text-lg font-semibold text-center ">
-          {name}
-        </h3>
-        <p className="text-xs md:text-sm text-center">
-          {role}
-        </p>
+      <div className="absolute inset-0 flex flex-col justify-end items-center p-5 text-white transform rotate-45 translate-y-2 group-hover:translate-y-0 transition-transform duration-300 ease-in-out">
+        <div className="transform -rotate-45 text-center">
+          <h3 className="text-lg font-bold mb-1">{name}</h3>
+          <p className="text-md text-skyblue mb-3">{role}</p>
+          <a
+            href={linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center w-8 h-8 bg-blue text-white rounded-full hover:bg-skyblue transition-colors duration-300"
+            aria-label={`${name}'s LinkedIn profile`}
+          >
+            <FaLinkedinIn size={18} />
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -81,18 +74,31 @@ const TopLeaders = () => {
 
   return (
     <div className="font-poppins h-auto mb-4 px-4 sm:px-6 lg:px-8 rounded-lg">
-      <div className="w-full flex flex-col md:flex-row gap-4">
+      <div className="w-full flex flex-col md:flex-row gap-8">
         <div
           className="flex bg-darkblue rounded-xl p-2 md:w-2/5 flex-col items-center transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-blue/20"
           data-aos="fade-right"
           data-aos-delay="200"
         >
           <div
-            className="flex bg-darkblue rounded-xl w-full p-2 border border-white flex-col items-center transition-all duration-300 ease-in-out hover:border-skyblue"
+            className="flex rounded-xl w-full p-2 border border-white flex-col items-center transition-all duration-300 ease-in-out hover:border-skyblue"
             data-aos="fade-up"
           >
-            <Team {...coordinator} />
-            <p className="text-lg text-center font-bold text-white transition-colors duration-300 ease-in-out hover:text-skyblue">
+            <div className="relative border border-2 p-1 border-blue rounded-full w-36 h-36 transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:border-skyblue">
+              <img
+                src={coordinator.image}
+                alt="Dr. Monica Bhutani"
+                className="w-full h-full object-cover rounded-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+              />
+              <a
+                href={coordinator.linkedinUrl}
+                className="absolute bottom-2 right-0 p-1 bg-blue rounded-full text-white transition-all duration-300 ease-in-out hover:bg-skyblue hover:scale-110"
+                aria-label="Dr. Monica Bhutani's LinkedIn profile"
+              >
+                <FaLinkedinIn />
+              </a>
+            </div>
+            <p className="text-lg text-center font-bold text-white transition-colors duration-300 ease-in-out hover:text-skyblue mt-4">
               Dr. Monica Bhutani
             </p>
             <p className="text-sm text-center font-semibold text-white transition-colors duration-300 ease-in-out hover:text-blue">
@@ -110,7 +116,6 @@ const TopLeaders = () => {
           data-aos-delay="200"
         >
           <Team {...chairperson} />
-          {/* <Team {...chairperson2} /> */}
           <Team {...viceChairperson} />
         </div>
       </div>
@@ -119,3 +124,4 @@ const TopLeaders = () => {
 };
 
 export default TopLeaders;
+
