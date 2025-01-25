@@ -1,66 +1,75 @@
 import React from "react";
 import AwardCard from "../components/AwardCard";
 import Heading from "../components/Heading";
+import Anushka from "../assets/Achievements/1.png";
+import Tanusri from "../assets/Achievements/2.png";
+import Rishit from "../assets/Achievements/3.png";
+import Harshit from "../assets/Achievements/4.png";
+import Shreya from "../assets/Achievements/5.png";
+import Shivam from "../assets/Achievements/6.png";
+import Eva from "../assets/Achievements/7.png";
+import Nikita from "../assets/Achievements/8.png";
+import Amol from "../assets/Achievements/9.png";
 
 const awardData = [
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Anushka,
     recipientName: "Anushka Mishra",
     awardName: "Dr. JK Pal Memorial Award for the Best IEEE Student Volunteer",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2024",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Tanusri,
     recipientName: "Tanusri Gururaj",
     awardName: "Outstanding WIE Student Volunteer Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2024",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Rishit,
     recipientName: "Rishit Singh",
     awardName: "Outstanding Student Volunteer Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2024",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Harshit,
     recipientName: "Harshit Mathur",
     awardName: "Dr. JK Pal Memorial Award for the Best IEEE Student Volunteer",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2023",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Shreya,
     recipientName: "Shreya Murarka",
     awardName: "Outstanding WIE Student Volunteer Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2023",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Shivam,
     recipientName: "Shivam Jain",
     awardName: "Outstanding Student Volunteer Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2023",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Eva,
     recipientName: "Eva Sarin",
     awardName: "Dr. JK Pal Memorial Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2022",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Nikita,
     recipientName: "Nikita Tewary",
     awardName: "Outstanding WIE Student Volunteer Award",
     eventName: "IEEE Delhi Section",
     eventYear: "Student Awards Ceremony 2022",
   },
   {
-    recipientImage: "/recipient-image.jpg",
+    recipientImage: Amol,
     recipientName: "Amol Puri",
     awardName: "Outstanding Student Volunteer Award",
     eventName: "IEEE Delhi Section",
