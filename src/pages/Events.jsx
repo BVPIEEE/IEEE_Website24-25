@@ -21,7 +21,7 @@ import venture from '../assets/Events/23I24/venture.png';
 import wiedrive from '../assets/Events/23I24/wiedrive.png';
 import wiehack5 from '../assets/Events/23I24/wiehack5.png';
 import zenith from '../assets/Events/23I24/zenith.png';
-import zeroworkshop23 from '../assets/Events/23i24/zeroworkshop.png';
+import zeroworkshop23 from '../assets/Events/23I24/zeroworkshop.png';
 
 import arduino from '../assets/Events/22I23/arduino.png';
 import felicitation from '../assets/Events/22I23/felicitation.png';
