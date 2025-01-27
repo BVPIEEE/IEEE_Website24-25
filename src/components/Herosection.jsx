@@ -2,6 +2,7 @@ import { Canvas, useFrame } from "@react-three/fiber"; // Core React Three Fiber
 import { OrbitControls, useGLTF } from "@react-three/drei"; // Helper components for Three.js
 import { Suspense, useState, useRef } from "react"; // Added useRef for animation
 import { useSpring, a } from "@react-spring/three"; // For 3D animations
+import { PiLinktreeLogoBold } from "react-icons/pi";
 
 // 3D Model Component
 const Model = () => {
@@ -72,6 +73,11 @@ const Herosection = () => {
                 Pratibimb 2.0 
               </button>
               </a> */}
+              <a href="https://linktr.ee/ieeebvcoe" className="flex items-center justify-center">
+              <span>Linktree</span>
+                <PiLinktreeLogoBold className="z-10 w-8 h-8"/>
+
+              </a>
             </div>
           </div>
 
