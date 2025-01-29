@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import { useLocation } from "react-router-dom"
-import logo from "../assets/LOGO_IEEE_BVCOE.png" // replace with your logo path
-import { Link } from "react-scroll"
+import React, { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import logo from "../assets/LOGO_IEEE_BVCOE.png"; // Replace with your logo path
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
-  const location = useLocation()
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const navItems = [
     { name: "Home", path: "/" },
@@ -15,48 +15,46 @@ const Navbar = () => {
     { name: "Team", path: "/team" },
     { name: "About", path: "/about" },
     { name: "Contact Us", path: "contact", isScroll: true },
-  ]
+  ];
 
   return (
     <nav className="font-poppins bg-white py-4 px-4 md:px-10 shadow-md shadow-white h-16 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={logo || "/placeholder.svg"} alt="Logo" className="h-8 w-auto mr-2" />
-        </a>
+        </Link>
 
-        {/* Menu items for larger screens */}
+        {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item) =>
-            item.isScroll ? (
-              <Link
+            item.isScroll && location.pathname === "/" ? (
+              <ScrollLink
                 key={item.name}
                 to={item.path}
                 smooth={true}
                 duration={500}
-                className={`text-black hover:text-blue cursor-pointer relative group ${
-                  location.pathname === item.path ? "text-blue" : ""
-                }`}
+                className="text-black hover:text-blue cursor-pointer relative group"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-              </Link>
+              </ScrollLink>
             ) : (
-              <a
+              <Link
                 key={item.name}
-                href={item.path}
+                to={item.isScroll ? "/#contact" : item.path}
                 className={`text-black hover:text-blue relative group ${
                   location.pathname === item.path ? "text-blue" : ""
                 }`}
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-              </a>
-            ),
+              </Link>
+            )
           )}
         </div>
 
-        {/* Mobile menu button */}
+        {/* Mobile Menu Button */}
         <button className="md:hidden text-black" onClick={() => setIsOpen(!isOpen)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -75,43 +73,38 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile menu items */}
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-8 border rounded-lg bg-white p-4 space-y-4">
-          {navItems.map((item) =>
-            item.isScroll ? (
-              <Link
-                key={item.name}
-                to={item.path}
-                smooth={true}
-                duration={500}
-                className={`block text-black hover:text-blue cursor-pointer relative group ${
-                  location.pathname === item.path ? "text-blue" : ""
-                }`}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-              </Link>
-            ) : (
-              <a
-                key={item.name}
-                href={item.path}
-                className={`block text-black hover:text-blue relative group ${
-                  location.pathname === item.path ? "text-blue" : ""
-                }`}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-              </a>
-            ),
-          )}
+        <div className="md:hidden bg-white absolute top-16 left-0 w-full border-t border-gray-200 shadow-lg">
+          <div className="p-4 space-y-4">
+            {navItems.map((item) =>
+              item.isScroll && location.pathname === "/" ? (
+                <ScrollLink
+                  key={item.name}
+                  to={item.path}
+                  smooth={true}
+                  duration={500}
+                  className="block text-black hover:text-blue cursor-pointer"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </ScrollLink>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.isScroll ? "/#contact" : item.path}
+                  className="block text-black hover:text-blue"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              )
+            )}
+          </div>
         </div>
       )}
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
-
+export default Navbar;
