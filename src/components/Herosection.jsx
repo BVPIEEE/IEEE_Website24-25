@@ -3,6 +3,7 @@ import { OrbitControls, useGLTF } from "@react-three/drei"; // Helper components
 import { Suspense, useState, useRef } from "react"; // Added useRef for animation
 import { useSpring, a } from "@react-spring/three"; // For 3D animations
 import { PiLinktreeLogoBold } from "react-icons/pi";
+import { Link } from "react-router-dom";
 
 // 3D Model Component
 const Model = () => {
@@ -43,7 +44,7 @@ const Model = () => {
 
 const Herosection = () => {
   return (
-    <section className="font-poppins px-4 md:px-10 font-poppins w-full pt-16 min-h-screen overflow-hidden bg-gradient-to-br from-[#000100] via-[#1a1a1a] to-[#000100]">
+    <section className="font-poppins px-4 md:px-10 font-poppins w-full pt-16 h-screen overflow-hidden bg-gradient-to-br from-[#000100] via-[#1a1a1a] to-[#000100]">
       <div className="container py-8 md:py-16 mx-auto">
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
           <div
@@ -63,28 +64,26 @@ const Herosection = () => {
               technology and unlock your potential.
             </p>
             <div className="flex flex-col sm:flex-row items-center md:items-start justify-center md:justify-start gap-4">
-              <a href="/about" className="w-full sm:w-auto">
+              <Link href="/about" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded hover:border hover:bg-black hover:border-blue px-6 py-2 hover:text-blue transition-colors bg-blue text-white">
                   About Us
                 </button>
-              </a>
-              {/* <a href="/pratibimb" className="w-full sm:w-auto">
+              </Link>
+              {/* <Link href="/pratibimb" className="w-full sm:w-auto">
               <button className="w-full sm:w-auto rounded border border-blue px-6 py-2 text-blue transition-colors hover:bg-blue hover:text-white">
                 Pratibimb 2.0 
               </button>
-              </a> */}
-              <a href="https://linktr.ee/ieeebvcoe" className="flex items-center justify-center">
+              </Link> */}
+              <Link href="https://linktr.ee/ieeebvcoe" className="flex items-center justify-center">
               <span>Linktree</span>
                 <PiLinktreeLogoBold className="z-10 w-8 h-8"/>
-
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className="relative" >
             <div
-              className="relative h-[300px] md:h-[400px]"
-              
+              className="relative h-[250px] md:h-[350px]"
             >
               {/* Three.js Canvas Setup */}
               <Canvas
@@ -119,16 +118,16 @@ const Herosection = () => {
               </Canvas>
             </div>
             <div className="absolute bottom-4 right-4 flex flex-col sm:flex-row gap-2 sm:gap-4">
-              <a href="events" className="w-full sm:w-auto">
+              <Link href="events" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded-full bg-[#01b5e2] px-4 py-1 text-sm text-white z-50">
                   EVENTS
                 </button>
-              </a>
-              <a href="achievements" className="w-full sm:w-auto">
+              </Link>
+              <Link href="achievements" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded-full bg-[#01b5e2] px-4 py-1 text-sm text-white">
                   ACHIEVEMENTS
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
