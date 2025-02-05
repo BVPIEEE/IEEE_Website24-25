@@ -64,6 +64,79 @@ function Team({ name, role, image, linkedinUrl }) {
   );
 }
 
+// function Team({ name, role, image, linkedinUrl }) {
+//   return (
+//     <div
+//       className="relative w-48 h-56 group"
+//       data-aos="fade-up"
+//       data-aos-duration="1000"
+//     >
+//       <div className="absolute inset-0 bg-black/50 clip-hexagon overflow-hidden shadow-lg transition-all duration-300 ease-in-out group-hover:shadow-2xl">
+//         <div className="absolute inset-0 overflow-hidden">
+//           <img
+//             src={image}
+//             alt={name}
+//             className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 brightness-90 group-hover:brightness-110"
+//           />
+//           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300 ease-in-out"></div>
+//         </div>
+//       </div>
+//       <div className="absolute inset-0 flex flex-col justify-end items-center p-5 text-white transition-transform duration-300 ease-in-out">
+//         <div className="text-center">
+//           <h3 className="text-lg font-bold mb-1">{name}</h3>
+//           <p className="text-md text-skyblue mb-3">{role}</p>
+//           <a
+//             href={linkedinUrl}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="inline-flex items-center justify-center w-8 h-8 bg-blue text-white rounded-full hover:bg-skyblue transition-colors duration-300"
+//             aria-label={`${name}'s LinkedIn profile`}
+//           >
+//             <FaLinkedinIn size={18} />
+//           </a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// function Team({ name, role, image, linkedinUrl }) {
+//   return (
+//     <div
+//       className="relative w-48 h-56 group"
+//       data-aos="fade-up"
+//       data-aos-duration="1000"
+//     >
+//       <div className="absolute inset-0 bg-black/50 clip-hexagon overflow-hidden shadow-lg transition-all duration-300 ease-in-out group-hover:shadow-2xl">
+//         <div className="absolute inset-0 overflow-hidden">
+//           <img
+//             src={image}
+//             alt={name}
+//             className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 brightness-90 group-hover:brightness-110"
+//           />
+//           <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300 ease-in-out"></div>
+//         </div>
+//       </div>
+//       <div className="absolute inset-0 flex flex-col justify-end items-center p-5 text-white transition-transform duration-300 ease-in-out">
+//         <div className="text-center">
+//           <h3 className="text-lg font-bold mb-1">{name}</h3>
+//           <p className="text-md text-skyblue mb-3">{role}</p>
+//           <a
+//             href={linkedinUrl}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="inline-flex items-center justify-center w-8 h-8 bg-blue text-white rounded-full hover:bg-skyblue transition-colors duration-300"
+//             aria-label={`${name}'s LinkedIn profile`}
+//           >
+//             <FaLinkedinIn size={18} />
+//           </a>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+
 const TopLeaders = () => {
   useEffect(() => {
     AOS.init({
@@ -74,17 +147,17 @@ const TopLeaders = () => {
 
   return (
     <div className="font-poppins h-auto mb-4 px-4 sm:px-6 lg:px-8 rounded-lg">
-      <div className="w-full flex flex-col md:flex-row gap-8">
+      <div className="w-full flex flex-col justify-center gap-8">
         <div
-          className="flex bg-darkblue rounded-xl p-2 md:w-2/5 flex-col items-center transition-all duration-300 ease-in-out hover:shadow-lg hover:shadow-blue/20"
+          className="flex p-2 flex-col items-center"
           data-aos="fade-right"
           data-aos-delay="200"
         >
           <div
-            className="flex rounded-xl w-full p-2 border border-white flex-col items-center transition-all duration-300 ease-in-out hover:border-skyblue"
+            className="flex rounded-xl w-full p-2 border border-white flex-col items-center"
             data-aos="fade-up"
           >
-            <div className="relative border border-2 p-1 border-blue rounded-full w-36 h-36 transition-transform duration-300 ease-in-out group-hover:scale-105 group-hover:border-skyblue">
+            <div className="relative border border-2 p-1 border-blue rounded-full w-36 h-36">
               <img
                 src={coordinator.image}
                 alt="Dr. Monica Bhutani"
@@ -98,20 +171,22 @@ const TopLeaders = () => {
                 <FaLinkedinIn />
               </a>
             </div>
-            <p className="text-lg text-center font-bold text-white transition-colors duration-300 ease-in-out hover:text-skyblue mt-4">
+            <div>
+            <p className="text-lg text-center font-bold text-darkblue mt-4">
               Dr. Monica Bhutani
             </p>
-            <p className="text-sm text-center font-semibold text-white transition-colors duration-300 ease-in-out hover:text-blue">
+            <p className="text-sm text-center font-semibold text-blue">
               BRANCH COUNSELLOR, IEEE BVCOE
             </p>
-            <p className="mt-2 text-sky-200 text-sm text-center transition-colors duration-300 ease-in-out hover:text-white">
+            <p className="mt-2 text-sky-700 text-sm text-center">
               ASSOCIATE PROFESSOR, ECE BVCOE <br />
               SECRETARY, IEEE STUDENT BRANCH DS COUNCILLOR'S FORUM
             </p>
+            </div>
           </div>
         </div>
         <div
-          className="flex flex-col md:flex-row justify-center md:w-3/5 items-center gap-12"
+          className="flex flex-col md:flex-row justify-center items-center gap-12"
           data-aos="fade-left"
           data-aos-delay="200"
         >

@@ -28,3 +28,15 @@
   .animation-delay-4000 {
     animation-delay: 4s;
   }  
+
+  /* .clip-hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  } */
+  
+  .clip-hexagon {
+    clip-path: polygon(
+      25% 0%, 95% 0%, 100% 50%, 
+      75% 100%, 5% 100%, 0% 50%
+    );
+  }
+  
