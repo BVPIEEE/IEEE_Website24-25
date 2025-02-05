@@ -64,7 +64,7 @@ const Herosection = () => {
               technology and unlock your potential.
             </p>
             <div className="flex flex-col sm:flex-row items-center md:items-start justify-center md:justify-start gap-4">
-              <Link href="/about" className="w-full sm:w-auto">
+              <Link to="/about" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded hover:border hover:bg-black hover:border-blue px-6 py-2 hover:text-blue transition-colors bg-blue text-white">
                   About Us
                 </button>
@@ -74,7 +74,7 @@ const Herosection = () => {
                 Pratibimb 2.0 
               </button>
               </Link> */}
-              <Link href="https://linktr.ee/ieeebvcoe" className="flex items-center justify-center">
+              <Link to="https://linktr.ee/ieeebvcoe" className="flex items-center justify-center">
               <span>Linktree</span>
                 <PiLinktreeLogoBold className="z-10 w-8 h-8"/>
               </Link>
@@ -118,12 +118,12 @@ const Herosection = () => {
               </Canvas>
             </div>
             <div className="absolute bottom-4 right-4 flex flex-col sm:flex-row gap-2 sm:gap-4">
-              <Link href="events" className="w-full sm:w-auto">
+              <Link to="/events" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded-full bg-[#01b5e2] px-4 py-1 text-sm text-white z-50">
                   EVENTS
                 </button>
               </Link>
-              <Link href="achievements" className="w-full sm:w-auto">
+              <Link to="/achievements" className="w-full sm:w-auto">
                 <button className="w-full sm:w-auto rounded-full bg-[#01b5e2] px-4 py-1 text-sm text-white">
                   ACHIEVEMENTS
                 </button>
