@@ -1,60 +1,60 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import gensec1 from "../assets/team/CoreTishya.jpg"
-import gensec2 from "../assets/team/CoreNishchay.jpg"
-import jointsec1 from "../assets/team/CoreDhananjay.png"
-import jointsec2 from "../assets/team/CoreDivye.jpg"
-import treasurer1 from "../assets/team/CoreOorgita.jpg"
-import treasurer2 from "../assets/team/CoreAditya.jpeg"
-import webmaster from "../assets/team/CoreRitu.jpg"
+import gensec1 from "../assets/team/coreharshtej.jpeg"
+import gensec2 from "../assets/team/coreSimran.jpg"
+import jointsec1 from "../assets/team/coreDevansh.jpg"
+import jointsec2 from "../assets/team/coreShristhi mittal.jpeg"
+import treasurer1 from "../assets/team/coreShourya.jpeg"
+import treasurer2 from "../assets/team/coreAarushi.jpg"
+import webmaster from "../assets/team/coreNupur.jpeg"
 
 const Core = () => {
   const profiles = [
     {
       image: gensec1,
-      name: "Tishya Nangia",
+      name: "Harshtej Singh Makkar",
       role: "General Secretary",
       offset: "lg:translate-y-4",
       linkedin: "https://www.linkedin.com/in/tishya-nangia/"
     },
     {
       image: gensec2,
-      name: "Nishchay Gupta",
+      name: "Simran Bhatia",
       role: "General Secretary",
       offset: "lg:-translate-y-4",
       linkedin: "https://www.linkedin.com/in/nishchay-gupta-417619283/"
     },
     {
       image: jointsec1,
-      name: "Dhananjay",
+      name: "Devansh Kumar Singh",
       role: "Joint Secretary",
       offset: "lg:translate-y-6",
       linkedin: "https://www.linkedin.com/in/dhananjay6561/"
     },
     {
       image: jointsec2,
-      name: "Divye Chandna",
+      name: "Srishti Mittal",
       role: "Joint Secretary",
       offset: "lg:-translate-y-4",
       linkedin: "https://www.linkedin.com/in/divyechandna/"
     },
     {
       image: treasurer1,
-      name: "Oorgita Sur",
+      name: "Shourya Singhal",
       role: "Treasurer",
       offset: "lg:translate-y-6",
       linkedin: "https://www.linkedin.com/in/oorgita-sur-258b36253/"
     },
     {
       image: treasurer2,
-      name: "Aditya Popli",
-      role: "Treasurer",
+      name: "Aarushi Garg",
+      role: "Webmaster",
       offset: "lg:-translate-y-4",
       linkedin: "https://www.linkedin.com/in/aditya-popli-70559b28a/"
     },
     {
       image: webmaster,
-      name: "Ritu Gupta",
+      name: "Nupur Gaur",
       role: "Webmaster",
       offset: "lg:translate-y-4",
       linkedin: "https://www.linkedin.com/in/ritu-gupta23/"
