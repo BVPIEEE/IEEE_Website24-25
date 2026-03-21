@@ -539,17 +539,17 @@ const Team = () => {
         execoms={hknExecoms}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7"
       />
-      <Sig
+      {/*<Sig
         chaptername="Student Interest Groups"
         profiles={Heads}
         execoms={sigs}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7"
-      />
+      /
       <AuxiliaryPosts
         chaptername="Auxiliary Team Posts"
         execoms={auxiliary}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-      />  
+      />>*/}
       <Volunteers 
         chaptername="Volunteers"
       />    
