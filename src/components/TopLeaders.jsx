@@ -3,8 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import monicamam from "../assets/team/MonicaMam.png"
-import chair from "../assets/team/ChairChahat.jpg"
-import vicechair from "../assets/team/ViceChairManasvi.jpeg"
+import chair from "../assets/team/chairVivek.jpeg"
+import vicechair from "../assets/team/VCAyush.jpeg"
 
 const coordinator = {
   image: monicamam,
@@ -12,7 +12,7 @@ const coordinator = {
 };
 
 const chairperson = {
-  name: "Chahat Nihalani",
+  name: "Vivek Y. Suryavanshi",
   role: "Chairperson",
   image: chair,
   linkedinUrl: "https://www.linkedin.com/in/chahatnihalani",
@@ -21,7 +21,7 @@ const chairperson = {
 };
 
 const viceChairperson = {
-  name: "Manasvi Chauhan",
+  name: "Ayush Sharma",
   role: "Vice Chairperson",
   image: vicechair,
   linkedinUrl: "https://www.linkedin.com/in/manasvi-chauhan",
