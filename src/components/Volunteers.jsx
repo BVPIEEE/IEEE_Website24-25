@@ -1,26 +1,26 @@
 import react from 'react'
-import volunteer1 from "../assets/team/Vol Ananya Srivastava.JPG";
+import volunteer1 from "../assets/team/Vol Ananya Srivastava.jpg";
 import volunteer2 from "../assets/team/Vol Ananyaa.jpg";
 import volunteer3 from "../assets/team/Vol Arshiya Garg.jpg";
 import volunteer4 from "../assets/team/Vol Aparna Gupta.jpg";
 import volunteer5 from "../assets/team/Vol Atulyaa Singh.jpg";
 import volunteer6 from "../assets/team/Vol Avani Sharma.jpg";
-import volunteer7 from "../assets/team/Vol Bhavya Goel.JPG";
+import volunteer7 from "../assets/team/Vol Bhavya Goel.jpg";
 import volunteer8 from "../assets/team/Vol Bhoomi gupta.jpg";
 import volunteer9 from "../assets/team/Vol Deepanshu pandey.jpg";
 import volunteer11 from "../assets/team/Vol Gauri Aggarwal.jpg";
 import volunteer12 from "../assets/team/Vol Ishaan Thakur.jpg";
 import volunteer13 from "../assets/team/Vol Keshav Gupta.jpg";
-import volunteer14 from "../assets/team/Vol Mayank Joshi.JPG";
+import volunteer14 from "../assets/team/Vol Mayank Joshi.jpg";
 import volunteer15 from "../assets/team/Vol Md Shahid Afridi.jpg";
-import volunteer16 from "../assets/team/Vol Mohak Gupta.JPG";
-import volunteer17 from "../assets/team/Vol Pavni Gupta.JPG";
-import volunteer18 from "../assets/team/Vol RACHIT CHAUHAN.JPG";
-import volunteer19 from "../assets/team/Vol Riddhi Dubey.JPG";
-import volunteer20 from "../assets/team/Vol Shifali Gulati.JPG";
+import volunteer16 from "../assets/team/Vol Mohak Gupta.jpg";
+import volunteer17 from "../assets/team/Vol Pavni Gupta.jpg";
+import volunteer18 from "../assets/team/Vol RACHIT CHAUHAN.jpg";
+import volunteer19 from "../assets/team/Vol Riddhi Dubey.jpg";
+import volunteer20 from "../assets/team/Vol Shifali Gulati.jpg";
 import volunteer21 from "../assets/team/Vol Shubham Kumar.png";
-import volunteer22 from "../assets/team/Vol Suraj Bariwal.JPG";
-import volunteer23 from "../assets/team/Vol Tejasvita.JPG";
+import volunteer22 from "../assets/team/Vol Suraj Bariwal.jpg";
+import volunteer23 from "../assets/team/Vol Tejasvita.jpg";
 import volunteer24 from "../assets/team/Vol Tushar_Kanti.png";
 import volunteer25 from "../assets/team/Vol Vaanya Gaur.jpg";
 
