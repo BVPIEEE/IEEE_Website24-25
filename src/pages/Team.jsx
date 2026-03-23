@@ -73,14 +73,14 @@ const csHeads = [
     name: "Faizaan Alam",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/abhinavkumarsingh1405",
+    linkedin: "https://www.linkedin.com/in/faizaan-alam-b59579323/",
   },
   {
     image: CsChair2,
     name: "Tanish Dhingra",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/piyush-patel-679702263/",
+    linkedin: "https://www.linkedin.com/in/tanish-dhingra-b7997b1b1/",
   },
   {
     image: CsViceChair,
@@ -97,21 +97,21 @@ const rasHeads = [
     name: "Abhipsita Sarkar",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/siddhant-patnaik-93500b248",
+    linkedin: "https://www.linkedin.com/in/abhipsita-sarkar-510a55237/",
   },
   {
     image: RasChair,
     name: "Ayush Bindal",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/ayush-bindal15/",
   },
   {
     image: RasViceChair2,
     name: "Vanshika Gupta",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/kartik-dhyani-453867222",
+    linkedin: "https://www.linkedin.com/in/vanshika-gupta-0a33aa319/",
   },
 ];
 
@@ -128,14 +128,14 @@ const iasHeads = [
     name: "Manishka Gupta",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/manishka-gupta-35a09730b/",
   },
   {
     image: IasViceChair2,
     name: "Gayatri Gahtori",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/anshdeep-singh-a01649231/",
+    linkedin: "https://www.linkedin.com/in/gayatri-gahtori-98443b321/",
   },
 ];
 
@@ -145,7 +145,7 @@ const wieHeads = [
     name: "Aastha Narang",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/kirthika-sharma-027285285/"
+    linkedin: "https://www.linkedin.com/in/aastha-narang-b3ba60211/"
   },
   {
     image: WieChair,
@@ -159,7 +159,7 @@ const wieHeads = [
     name: "Simran kaushal",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/arti-joshi-12289325a",
+    linkedin: "https://www.linkedin.com/in/simran-kaushal-340793324/",
   },
 ];
 
@@ -169,7 +169,7 @@ const hknHeads = [
     name: "Ansh Jain",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/purva-bansal-4b1639259/",
+    linkedin: "https://www.linkedin.com/in/ansh-jain-799b6b333/",
   },
   {
     image: HknChair2,
@@ -183,7 +183,7 @@ const hknHeads = [
     name: "Priyanshi Singh",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/maitri-65b510257/",
+    linkedin: "https://www.linkedin.com/in/priyanshi-singh-a701a331b/",
   },
 ];
 

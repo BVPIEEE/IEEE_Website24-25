@@ -15,49 +15,49 @@ const Core = () => {
       name: "Harshtej Singh Makkar",
       role: "General Secretary",
       offset: "lg:translate-y-4",
-      linkedin: "https://www.linkedin.com/in/tishya-nangia/"
+      linkedin: "https://www.linkedin.com/in/harshtej-makkar-5204a4329/"
     },
     {
       image: gensec2,
       name: "Simran Bhatia",
       role: "General Secretary",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/nishchay-gupta-417619283/"
+      linkedin: "https://www.linkedin.com/in/bhatiasimran1108/"
     },
     {
       image: jointsec1,
       name: "Devansh Kumar Singh",
       role: "Joint Secretary",
       offset: "lg:translate-y-6",
-      linkedin: "https://www.linkedin.com/in/dhananjay6561/"
+      linkedin: "https://www.linkedin.com/in/devansh-kumar-singh-a780b2328/"
     },
     {
       image: jointsec2,
       name: "Srishti Mittal",
       role: "Joint Secretary",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/divyechandna/"
+      linkedin: "https://www.linkedin.com/in/srishti-mittal-968005328/?trk=contact-info"
     },
     {
       image: treasurer1,
       name: "Shourya Singhal",
       role: "Treasurer",
       offset: "lg:translate-y-6",
-      linkedin: "https://www.linkedin.com/in/oorgita-sur-258b36253/"
+      linkedin: "https://www.linkedin.com/in/shourya-singhal-29b809333/"
     },
     {
       image: treasurer2,
       name: "Aarushi Garg",
       role: "Webmaster",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/aditya-popli-70559b28a/"
+      linkedin: "https://www.linkedin.com/in/aarushi-garg-98ba02246/"
     },
     {
       image: webmaster,
       name: "Nupur Gaur",
       role: "Webmaster",
       offset: "lg:translate-y-4",
-      linkedin: "https://www.linkedin.com/in/ritu-gupta23/"
+      linkedin: "https://www.linkedin.com/in/nupur-gaur-a0bab6306/"
     },
   ];
 

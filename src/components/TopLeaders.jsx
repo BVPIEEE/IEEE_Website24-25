@@ -15,7 +15,7 @@ const chairperson = {
   name: "Vivek Y. Suryavanshi",
   role: "Chairperson",
   image: chair,
-  linkedinUrl: "https://www.linkedin.com/in/chahatnihalani",
+  linkedinUrl: "https://www.linkedin.com/in/vivek-suryavanshi-2352552b8/",
   thought:
     "Leadership is about making others better as a result of your presence.",
 };
@@ -24,7 +24,7 @@ const viceChairperson = {
   name: "Ayush Sharma",
   role: "Vice Chairperson",
   image: vicechair,
-  linkedinUrl: "https://www.linkedin.com/in/manasvi-chauhan",
+  linkedinUrl: "https://www.linkedin.com/in/ayush-sharma-a23634335/",
   thought: "Innovation distinguishes between a leader and a follower.",
 };
 
