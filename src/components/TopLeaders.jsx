@@ -3,8 +3,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import monicamam from "../assets/team/MonicaMam.png"
-import chair from "../assets/team/chairVivek.jpeg"
-import vicechair from "../assets/team/VCAyush.jpeg"
+import chair from "../assets/team/ChairChahat.jpg"
+import vicechair from "../assets/team/ViceChairManasvi.jpeg"
 
 const coordinator = {
   image: monicamam,
@@ -12,19 +12,19 @@ const coordinator = {
 };
 
 const chairperson = {
-  name: "Vivek Y. Suryavanshi",
+  name: "Chahat Nihalani",
   role: "Chairperson",
   image: chair,
-  linkedinUrl: "https://www.linkedin.com/in/vivek-suryavanshi-2352552b8/",
+  linkedinUrl: "https://www.linkedin.com/in/chahatnihalani",
   thought:
     "Leadership is about making others better as a result of your presence.",
 };
 
 const viceChairperson = {
-  name: "Ayush Sharma",
+  name: "Manasvi Chauhan",
   role: "Vice Chairperson",
   image: vicechair,
-  linkedinUrl: "https://www.linkedin.com/in/ayush-sharma-a23634335/",
+  linkedinUrl: "https://www.linkedin.com/in/manasvi-chauhan",
   thought: "Innovation distinguishes between a leader and a follower.",
 };
 
@@ -179,7 +179,8 @@ const TopLeaders = () => {
               BRANCH COUNSELLOR, IEEE BVCOE
             </p>
             <p className="mt-2 text-sky-700 text-sm text-center">
-              ASSOCIATE PROFESSOR, ECE BVCOE SECRETARY
+              ASSOCIATE PROFESSOR, ECE BVCOE <br />
+              SECRETARY, IEEE STUDENT BRANCH DS COUNCILLOR'S FORUM
             </p>
             </div>
           </div>
