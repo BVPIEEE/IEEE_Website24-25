@@ -198,7 +198,7 @@ const csExecoms = [
     image: CsExecom2,
     name: "Anshu Rani",
     role: "Executive Research and Development",
-    linkedin: "https://www.linkedin.com/in/anshu-rani-45b9862b8/",
+    linkedin: "#",
   },
   {
     image: CsExecom3,
