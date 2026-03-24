@@ -152,7 +152,7 @@ const wieHeads = [
     name: "Ishmeet Kaur",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/priyanshiguptaa",
+    linkedin: "#",
   },
   {
     image: WieViceChair2,
