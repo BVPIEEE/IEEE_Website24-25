@@ -179,8 +179,7 @@ const TopLeaders = () => {
               BRANCH COUNSELLOR, IEEE BVCOE
             </p>
             <p className="mt-2 text-sky-700 text-sm text-center">
-              ASSOCIATE PROFESSOR, ECE BVCOE <br />
-              SECRETARY, IEEE STUDENT BRANCH DS COUNCILLOR'S FORUM
+              ASSOCIATE PROFESSOR, ECE BVCOE SECRETARY
             </p>
             </div>
           </div>
