@@ -176,7 +176,7 @@ const hknHeads = [
     name: "Chestha",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/kartish-bhadauria-393b85256/",
+    linkedin: "https://www.linkedin.com/in/cheshta-2abaa5314/",
   },
   {
     image: HknViceChair,
