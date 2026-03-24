@@ -4,21 +4,21 @@ import Core from "../components/Core";
 import TopLeaders from "../components/TopLeaders";
 //Heads
 import Chapters from "../components/Chapters";
-import CsChair1 from "../assets/team/CsAbhinav.jpg";
-import CsChair2 from "../assets/team/CsPiyushPatel.jpg";
+import CsChair1 from "../assets/team/csfaizaan.jpeg";
+import CsChair2 from "../assets/team/csTanish.jpeg";
 import CsViceChair from "../assets/team/CsMadhavSachar.jpg";
-import RasChair from "../assets/team/Ras Nitish.jpeg";
-import RasViceChair1 from "../assets/team/RasSiddhantPatnaik.jpg";
-import RasViceChair2 from "../assets/team/RasKartikDutt.jpg";
-import IasChair from "../assets/team/IasKushalGoyal.jpeg";
-import IasViceChair1 from "../assets/team/IasNiharikaKashyap.jpg";
-import IasViceChair2 from "../assets/team/IasAnshdeep.jpeg";
-import WieChair from "../assets/team/WiePriyanshiGupta.jpg";
-import WieViceChair1 from "../assets/team/WieKirthika.jpg";
-import WieViceChair2 from "../assets/team/WieArtiJoshi.jpg";
-import HknChair1 from "../assets/team/HknPurva.png";
-import HknChair2 from "../assets/team/HknKartish.jpg";
-import HknViceChair from "../assets/team/HknMaitri.jpg";
+import RasChair from "../assets/team/RasAyush.jpeg";
+import RasViceChair1 from "../assets/team/rasAbhipsita.jpeg";
+import RasViceChair2 from "../assets/team/rasVanshika.jpeg";
+import IasChair from "../assets/team/iasManishka gupta.jpg";
+import IasViceChair1 from "../assets/team/iasPakhi.jpg";
+import IasViceChair2 from "../assets/team/iasGayatri.jpg";
+import WieChair from "../assets/team/wieAastha .jpg";
+import WieViceChair1 from "../assets/team/wieAastha .jpg";
+import WieViceChair2 from "../assets/team/wieSimran kaushal.jpg";
+import HknChair1 from "../assets/team/hknAnsh.jpeg";
+import HknChair2 from "../assets/team/HknCheshta.jpg";
+import HknViceChair from "../assets/team/hknPriyanshi.jpeg";
 
 //Execoms
 import CsExecom1 from "../assets/team/ExeMrityunjay Kotwal.webp";
@@ -70,21 +70,21 @@ import Volunteers from "../components/Volunteers";
 const csHeads = [
   {
     image: CsChair1,
-    name: "Abhinav Kumar Singh",
+    name: "Faizaan Alam",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/abhinavkumarsingh1405",
+    linkedin: "https://www.linkedin.com/in/faizaan-alam-b59579323/",
   },
   {
     image: CsChair2,
-    name: "Piyush Patel",
+    name: "Tanish Dhingra",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/piyush-patel-679702263/",
+    linkedin: "https://www.linkedin.com/in/tanish-dhingra-b7997b1b1/",
   },
   {
     image: CsViceChair,
-    name: "Madhav Sachar",
+    name: "Himanshu",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
     linkedin: "https://www.linkedin.com/in/madhav-sachar-0b6166176/",
@@ -94,96 +94,96 @@ const csHeads = [
 const rasHeads = [
   {
     image: RasViceChair1,
-    name: "Siddhant Patnaik",
-    role: "Vice Chairperson",
+    name: "Abhipsita Sarkar",
+    role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/siddhant-patnaik-93500b248",
+    linkedin: "https://www.linkedin.com/in/abhipsita-sarkar-510a55237/",
   },
   {
     image: RasChair,
-    name: "Nitish Abrol",
+    name: "Ayush Bindal",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/ayush-bindal15/",
   },
   {
     image: RasViceChair2,
-    name: "Kartik Dhyani",
+    name: "Vanshika Gupta",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/kartik-dhyani-453867222",
+    linkedin: "https://www.linkedin.com/in/vanshika-gupta-0a33aa319/",
   },
 ];
 
 const iasHeads = [
   {
     image: IasViceChair1,
-    name: "Niharika Kashyap",
-    role: "Vice Chairperson",
+    name: "Pakhi Kumar",
+    role: "Chairperson",
     offset: "lg:translate-y-6",
     linkedin: "https://www.linkedin.com/in/niharika-kashyap-1b2428284/",
   },
   {
     image: IasChair,
-    name: "Kushal Goyal",
+    name: "Manishka Gupta",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/manishka-gupta-35a09730b/",
   },
   {
     image: IasViceChair2,
-    name: "Anshdeep Singh",
+    name: "Gayatri Gahtori",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/anshdeep-singh-a01649231/",
+    linkedin: "https://www.linkedin.com/in/gayatri-gahtori-98443b321/",
   },
 ];
 
 const wieHeads = [
   {
     image: WieViceChair1,
-    name: "Kirthika",
-    role: "Vice Chairperson",
+    name: "Aastha Narang",
+    role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/kirthika-sharma-027285285/"
+    linkedin: "https://www.linkedin.com/in/aastha-narang-b3ba60211/"
   },
   {
     image: WieChair,
-    name: "Priyanshi Gupta",
+    name: "Ishmeet Kaur",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
     linkedin: "https://www.linkedin.com/in/priyanshiguptaa",
   },
   {
     image: WieViceChair2,
-    name: "Arti Joshi",
+    name: "Simran kaushal",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/arti-joshi-12289325a",
+    linkedin: "https://www.linkedin.com/in/simran-kaushal-340793324/",
   },
 ];
 
 const hknHeads = [
   {
     image: HknChair1,
-    name: "Purva",
+    name: "Ansh Jain",
     role: "Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/purva-bansal-4b1639259/",
+    linkedin: "https://www.linkedin.com/in/ansh-jain-799b6b333/",
   },
   {
     image: HknChair2,
-    name: "Kartish Bhadauria",
+    name: "Chestha",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/kartish-bhadauria-393b85256/",
+    linkedin: "https://www.linkedin.com/in/cheshta-2abaa5314/",
   },
   {
     image: HknViceChair,
-    name: "Maitri",
+    name: "Priyanshi Singh",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/maitri-65b510257/",
+    linkedin: "https://www.linkedin.com/in/priyanshi-singh-a701a331b/",
   },
 ];
 
@@ -539,17 +539,18 @@ const Team = () => {
         execoms={hknExecoms}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7"
       />
-      <Sig
+      {/*<Sig
         chaptername="Student Interest Groups"
         profiles={Heads}
         execoms={sigs}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7"
-      />
+      /
       <AuxiliaryPosts
         chaptername="Auxiliary Team Posts"
         execoms={auxiliary}
         grid="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-      />  
+      />>*/}
+
       <Volunteers 
         chaptername="Volunteers"
       />    

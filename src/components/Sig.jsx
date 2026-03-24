@@ -2,7 +2,6 @@ import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const TeamMember = ({name, role, image, linkedinUrl}) => {
-
   return (
     <div className="font-poppins relative h-36 md:h-48 group" data-aos="fade-up">
       <div className="relative border rounded-full border-white w-24 h-24 md:w-32 md:h-32 mx-auto mb-4">
