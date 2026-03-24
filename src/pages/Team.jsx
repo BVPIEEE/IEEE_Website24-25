@@ -87,7 +87,7 @@ const csHeads = [
     name: "Madhav Sachar",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/madhav-sachar-0b6166176/",
+    linkedin: "#",
   },
 ];
 
@@ -152,7 +152,7 @@ const wieHeads = [
     name: "Priyanshi Gupta",
     role: "Chairperson",
     offset: "lg:-translate-y-4",
-    linkedin: "https://www.linkedin.com/in/priyanshiguptaa",
+    linkedin: "#",
   },
   {
     image: WieViceChair2,
@@ -198,7 +198,7 @@ const csExecoms = [
     image: CsExecom2,
     name: "Anshu Rani",
     role: "Executive Research and Development",
-    linkedin: "https://www.linkedin.com/in/anshu-rani-45b9862b8/",
+    linkedin: "#",
   },
   {
     image: CsExecom3,
