@@ -1,63 +1,63 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
-import gensec1 from "../assets/team/coreharshtej.jpeg"
-import gensec2 from "../assets/team/coreSimran.jpg"
-import jointsec1 from "../assets/team/coreDevansh.jpg"
-import jointsec2 from "../assets/team/coreShristhi mittal.jpeg"
-import treasurer1 from "../assets/team/coreShourya.jpeg"
-import treasurer2 from "../assets/team/coreAarushi.jpg"
-import webmaster from "../assets/team/coreNupur.jpeg"
+import gensec1 from "../assets/team/CoreTishya.jpg"
+import gensec2 from "../assets/team/CoreNishchay.jpg"
+import jointsec1 from "../assets/team/CoreDhananjay.png"
+import jointsec2 from "../assets/team/CoreDivye.jpg"
+import treasurer1 from "../assets/team/CoreOorgita.jpg"
+import treasurer2 from "../assets/team/CoreAditya.jpeg"
+import webmaster from "../assets/team/CoreRitu.jpg"
 
 const Core = () => {
   const profiles = [
     {
       image: gensec1,
-      name: "Harshtej Singh Makkar",
+      name: "Tishya Nangia",
       role: "General Secretary",
       offset: "lg:translate-y-4",
-      linkedin: "https://www.linkedin.com/in/harshtej-makkar-5204a4329/"
+      linkedin: "https://www.linkedin.com/in/tishya-nangia/"
     },
     {
       image: gensec2,
-      name: "Simran Bhatia",
+      name: "Nishchay Gupta",
       role: "General Secretary",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/bhatiasimran1108/"
+      linkedin: "https://www.linkedin.com/in/nishchay-gupta-417619283/"
     },
     {
       image: jointsec1,
-      name: "Devansh Kumar Singh",
+      name: "Dhananjay",
       role: "Joint Secretary",
       offset: "lg:translate-y-6",
-      linkedin: "https://www.linkedin.com/in/devansh-kumar-singh-a780b2328/"
+      linkedin: "https://www.linkedin.com/in/dhananjay6561/"
     },
     {
       image: jointsec2,
-      name: "Srishti Mittal",
+      name: "Divye Chandna",
       role: "Joint Secretary",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/srishti-mittal-968005328/?trk=contact-info"
+      linkedin: "https://www.linkedin.com/in/divyechandna/"
     },
     {
       image: treasurer1,
-      name: "Shourya Singhal",
+      name: "Oorgita Sur",
       role: "Treasurer",
       offset: "lg:translate-y-6",
-      linkedin: "https://www.linkedin.com/in/shourya-singhal-29b809333/"
+      linkedin: "https://www.linkedin.com/in/oorgita-sur-258b36253/"
     },
     {
       image: treasurer2,
-      name: "Aarushi Garg",
-      role: "Webmaster",
+      name: "Aditya Popli",
+      role: "Treasurer",
       offset: "lg:-translate-y-4",
-      linkedin: "https://www.linkedin.com/in/aarushi-garg-98ba02246/"
+      linkedin: "https://www.linkedin.com/in/aditya-popli-70559b28a/"
     },
     {
       image: webmaster,
-      name: "Nupur Gaur",
+      name: "Ritu Gupta",
       role: "Webmaster",
       offset: "lg:translate-y-4",
-      linkedin: "https://www.linkedin.com/in/nupur-gaur-a0bab6306/"
+      linkedin: "https://www.linkedin.com/in/ritu-gupta23/"
     },
   ];
 
