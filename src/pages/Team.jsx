@@ -87,7 +87,7 @@ const csHeads = [
     name: "Himanshu",
     role: "Vice Chairperson",
     offset: "lg:translate-y-6",
-    linkedin: "https://www.linkedin.com/in/madhav-sachar-0b6166176/",
+    linkedin: "#",
   },
 ];
 
