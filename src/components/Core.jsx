@@ -4,7 +4,7 @@ import gensec1 from "../assets/team/CoreTishya.jpg"
 import gensec2 from "../assets/team/CoreNishchay.jpg"
 import jointsec1 from "../assets/team/CoreDhananjay.png"
 import jointsec2 from "../assets/team/CoreDivye.jpg"
-import treasurer1 from "../assets/team/CoreShourya.jpeg"
+import treasurer1 from "../assets/team/CoreOorgita.jpg"
 import treasurer2 from "../assets/team/CoreAditya.jpeg"
 import webmaster from "../assets/team/CoreRitu.jpg"
 
