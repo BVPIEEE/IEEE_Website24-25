@@ -3,7 +3,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 import TeamMember from "./TeamMember";
 
 const Chapters = ({ chaptername, profiles, execoms, grid }) => {
-    const showExecom= false;
   return (
     <div className="font-poppins bg-gradient-to-br from-black to-darkblue border-t-2 border-white py-10">
       <h2
@@ -45,7 +44,6 @@ const Chapters = ({ chaptername, profiles, execoms, grid }) => {
           ))}
         </div>
       </div>
-      {showExecom && (
       <div className="flex justify-center items-center">
       <div className={`grid ${grid} gap-6 my-10 justify-center items-center`} >
         {execoms.map((execom, index) => (
@@ -61,7 +59,7 @@ const Chapters = ({ chaptername, profiles, execoms, grid }) => {
           </div>
         ))}
       </div>
-      </div>)}
+      </div>
 
       
     </div>
